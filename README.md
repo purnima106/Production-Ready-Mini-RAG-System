@@ -31,9 +31,7 @@ AI_Airport_Chatbot/
 ├── requirements.txt
 └── README.md
 ```
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -55,9 +53,7 @@ pip install -r requirements.txt
 If needed, re-scrape using your custom script or update wiki_content.json.
 
 📚 2. Build FAISS Index
-bash
-Copy
-Edit
+
 python app/build_faiss.py
 This generates:
 
@@ -66,9 +62,7 @@ data/faiss_index.faiss
 data/faiss_index.pkl
 
 ⚙️ 3. Run the FastAPI Server
-bash
-Copy
-Edit
+
 uvicorn app.api:app --reload
 📬 How to Query via Postman
 POST URL: http://localhost:8000/query
@@ -77,9 +71,6 @@ Headers: Content-Type: application/json
 
 Body:
 
-json
-Copy
-Edit
 {
   "query": "What is the Rain Vortex at Jewel Changi Airport?"
 }
