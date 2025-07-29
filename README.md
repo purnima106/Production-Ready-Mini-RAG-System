@@ -15,21 +15,22 @@ This project is an AI-powered **question-answering chatbot** built using the **R
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
+```
 AI_Airport_Chatbot/
 ├── app/
-│ ├── api.py # FastAPI backend
-│ ├── build_faiss.py # Builds FAISS index from JSON
-│ └── chatbot/
-│ └── chatbot.py # RAG chain construction logic
+│   ├── api.py                # FastAPI backend
+│   ├── build_faiss.py        # Builds FAISS index from JSON
+│   └── chatbot/
+│       └── chatbot.py        # RAG chain construction logic
 ├── data/
-│ ├── wiki_content.json # Scraped wiki data
-│ ├── faiss_index.faiss # FAISS vector index
-│ └── faiss_index.pkl # Serialized document store
+│   ├── wiki_content.json     # Scraped wiki data
+│   ├── faiss_index.faiss     # FAISS vector index
+│   └── faiss_index.pkl       # Serialized document store
 ├── requirements.txt
 └── README.md
-
+```
 yaml
 Copy
 Edit
